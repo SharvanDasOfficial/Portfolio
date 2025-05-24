@@ -1,0 +1,38 @@
+/* Dark background & base text */
+body {
+  background-color: #121212;
+  color: #E0E0E0;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar & card backgrounds */
+.navbar, .card, .footer {
+  background-color: #1E1E1E !important;
+  border-color: #2A2A2A !important;
+}
+
+/* Headings in neon blue */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #00BFFF;
+}
+
+/* Neon blue links and buttons */
+a, .btn-primary {
+  color: #00BFFF !important;
+}
+
+a:hover, .btn-primary:hover {
+  color: #32CD32 !important;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Footer text */
+.footer {
+  color: #A0A0A0;
+  padding: 1rem 0;
+  text-align: center;
+}
