@@ -1,0 +1,25 @@
+.footer-section {
+  background-color: #0e0e0e;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.text-glow {
+  color: #ffffff;
+  text-shadow: 0 0 8px #6a11cb, 0 0 15px rgba(255, 255, 255, 0.2);
+  font-weight: bold;
+}
+
+.social-icons .icon-link {
+  color: #ccc;
+  margin: 0 12px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons .icon-link:hover {
+  color: #6a11cb;
+  transform: scale(1.2);
+}
+
+.footer-text {
+  color: #999;
+}

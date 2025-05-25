@@ -148,27 +148,4 @@
   border-left: 3px solid #6a11cb;
   padding-left: 15px;
 }
-.role-list {
-  list-style-type: none;
-  padding-left: 0;
-}
 
-.role-list li {
-  margin-bottom: 5px;
-  position: relative;
-  padding-left: 20px;
-}
-
-.role-list li:before {
-  content: "▸";
-  position: absolute;
-  left: 0;
-  color: #00BFFF; /* Matches your SQL icon color */
-}
-
-.day-night-roles {
-  background: rgba(0, 191, 255, 0.05);
-  padding: 15px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-}

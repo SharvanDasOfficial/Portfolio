@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css'; // Includes glow and 3D styles
 import profileImg from '../assets/profile.webp';
-import profileBackImg from '../assets/profile-back.png';
+import profileBackImg from '../assets/profile-back.jpg';
 import { FaPython, FaDatabase, FaGitAlt, FaChartBar  } from 'react-icons/fa';
 import { SiApachespark, SiDatabricks, SiApacheairflow, SiDocker } from 'react-icons/si';
 
@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="row align-items-start flex-column flex-md-row">
           {/* Text Section */}
           <div className="col-md-7">
-            <h1 className="display-6 fw-bold text-glow">
+            <h1 className="display-6 fw-bold">
             Hello Brains, Bytes, Bonds & Bots!
             </h1>
             <h3 className="mb-4 role-tagline">
@@ -76,7 +76,7 @@ const Hero = () => {
                     src={profileImg}
                     alt="Sharvan at computer"
                     className="img-fluid rounded-4 hero-image"
-                    style={{ width: '100%', height: 'auto' }}
+                    style={{ width: '90%', aspectRatio: '1 / 1', objectFit: 'cover' }}
                   />
                 </div>
                 <div className="flip-card-back">
@@ -84,7 +84,7 @@ const Hero = () => {
                     src={profileBackImg}
                     alt="Sharvan back"
                     className="img-fluid rounded-4 hero-image"
-                    style={{ width: '100%', height: 'auto' }}
+                    style={{ width: '87%', aspectRatio: '1 / 1', objectFit: 'cover' }}
                   />
                 </div>
               </div>
