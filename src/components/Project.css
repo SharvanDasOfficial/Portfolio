@@ -1,0 +1,47 @@
+.project-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.05);
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 15px 40px rgba(106, 17, 203, 0.2);
+}
+
+.project-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  transition: transform 0.4s ease;
+}
+
+.project-card:hover .project-image {
+  transform: scale(1.05);
+}
+
+.project-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.text-glow {
+  text-shadow: 0 0 12px rgba(106, 17, 203, 0.6);
+}
+
+/* Custom hover/active states */
+.hover-bg-light:hover {
+  background-color: #f8f9fa !important; /* Light gray */
+  color: #13465f !important; /* Dark text */
+  border-color: #17a2b8 !important; /* Info color border */
+}
+
+/* Remove blue fill on active state */
+.btn-outline-info:not(:disabled):not(.disabled).active,
+.btn-outline-info:not(:disabled):not(.disabled):active {
+  background-color: transparent !important;
+}

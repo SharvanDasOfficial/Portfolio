@@ -1,0 +1,30 @@
+.skill-group-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-group-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 15px 35px rgba(106, 17, 203, 0.15);
+}
+
+.skill-item {
+  font-size: 1rem;
+  color: #ddd;
+  transition: color 0.3s ease;
+}
+
+.skill-item:hover {
+  color: #fff;
+}
+
+.skill-icon {
+  font-size: 1.5rem;
+  color: #6a11cb;
+}
+
+.text-glow {
+  text-shadow: 0 0 10px rgba(143, 56, 237, 0.5);
+}

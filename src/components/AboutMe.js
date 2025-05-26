@@ -4,7 +4,7 @@ import aboutMeImg from '../assets/about-me.png'; // Change to your actual about 
 
 const AboutMe = () => {
   return (
-    <section className="aboutme-section bg-dark text-light py-5">
+    <section id="aboutme" className="aboutme-section bg-dark text-light py-5">
       <div className="aboutme-container">
         {/* Text Section */}
         <div className="aboutme-text">
